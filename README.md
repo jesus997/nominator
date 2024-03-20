@@ -2,7 +2,7 @@
 
 Me dio desconfianza subir mi nómina a sitios externos, así que decidí hacer mi propio visualizador de nóminas.
 
-## Developing
+## Development
 
 Clona el proyecto en tu equipo y ejecuta `npm install` (o `pnpm install` o `yarn`) en la carpeta del mismo. Para iniciar el servidor de desarrollo ejecuta:
 
