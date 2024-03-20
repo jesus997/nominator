@@ -31,8 +31,6 @@
     if (null != comprobante && null) {
       currency = comprobante.getAttribute('Moneda')
     }
-
-    console.log(receptor)
   }
   reader.readAsText(file);
 </script>
@@ -107,7 +105,7 @@
       <Table hoverable={true}>
         <TableHead>
           <TableHeadCell>Concepto</TableHeadCell>
-        <TableHeadCell>Importe</TableHeadCell>
+          <TableHeadCell>Importe</TableHeadCell>
         </TableHead>
         <TableBody tableBodyClass="divide-y">
           {#each otrosPagos as otroPago}
